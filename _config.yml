@@ -1,0 +1,22 @@
+# Site Settings
+locale                   : "en"
+title                    : "Proven Stack Students"
+description              : "Proven Stack Students"
+url                      : "" # the base hostname & protocol for your site, e.g. http://example.com
+baseurl                  : "" # the subpath of your site, e.g. /blog
+
+# Reading Files
+include:
+  - _pages
+exclude:
+  - vendor
+  - Gemfile
+  - README
+encoding: "utf-8"
+
+# Conversion
+markdown: kramdown
+
+# Plugins (previously gems:)
+plugins:
+  - jekyll-sitemap
